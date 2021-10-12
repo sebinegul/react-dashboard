@@ -14,4 +14,9 @@ body {
  
   background-color:#fff;
 }
-
+.container{
+  display: flex;
+}
+.others{
+  flex:4;
+}

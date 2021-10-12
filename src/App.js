@@ -1,7 +1,14 @@
+import Sidebar from "./components/Sidebar/Sidebar";
+import Topbar from "./components/Topbar/Topbar";
+import './index.css'
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <Topbar />
+      <div className="container">
+        <Sidebar />
+        <div className="others">Ss</div>
+      </div>
     </div>
   );
 }
