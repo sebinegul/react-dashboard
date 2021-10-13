@@ -28,6 +28,11 @@
     display: flex;
     align-items: center;
     border-radius: 10px;
+    a{
+      text-decoration: none;
+      color: #555;
+    }
+  
    &:hover{
         background-color: #fdf8dc;
     }

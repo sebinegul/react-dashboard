@@ -1,0 +1,27 @@
+.userlist {
+  flex: 4;
+}
+.userWrapper{
+    display: flex;
+    align-items: center;
+    img{
+        width:36px;
+        height:36px;
+        border-radius: 50%;
+        margin-right: 15px;
+        object-fit: cover;
+    }
+}
+.userEdit{
+    margin: 0 10px;
+    border: none;
+    padding:8px 10px;
+    border-radius: 8px;
+    background-color: #a8dadc;
+    color:#2a9d8f;
+    cursor: pointer;
+}
+.userDelete{
+    color: #e63946;
+    cursor: pointer;
+}

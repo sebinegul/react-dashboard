@@ -1,0 +1,48 @@
+.newUser {
+  flex: 4;
+  padding: 20px;
+  .userTile {
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+.form-container {
+  margin: 10px;
+  width: 80%;
+}
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+  input {
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    padding: 15px 180px 15px 5px;
+    margin-top: 10px;
+  }
+  select {
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    padding: 15px 300px 15px 5px;
+    margin-top: 10px;
+  }
+}
+.userGender {
+  margin-top: 20px;
+  label {
+    margin: 0 10px 0 5px;
+  }
+}
+.blue-btn {
+  background-color: #94d2bd;
+  color: #0a9396;
+  border: none;
+  padding:10px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:20px 0;
+}

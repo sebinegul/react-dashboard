@@ -1,0 +1,112 @@
+$grey: rgb(138, 138, 138);
+.userDetails {
+  flex: 1;
+  box-shadow: -1px 4px 20px 1px rgba(0, 0, 0, 0.27);
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 30px;
+  flex-wrap: wrap;
+}
+.userProfile {
+  display: flex;
+  align-items: center;
+  img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  .profileName {
+    font-weight: 700;
+    margin-bottom: 1px;
+  }
+  .profileDesignation {
+    color: $grey;
+  }
+}
+.accountDetailsContainer {
+  margin: 20px 0;
+  .accountDetails {
+    color: $grey;
+    font-size: 0.95em;
+  }
+}
+.iconContainer {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  font-size: 0.95em;
+  span {
+    margin-left: 8px;
+  }
+  .icon-color {
+    font-size: 18px;
+  }
+}
+.editUser {
+  flex: 2;
+  box-shadow: -1px 4px 20px 1px rgba(0, 0, 0, 0.27);
+  border-radius: 10px;
+  padding: 20px;
+  .editTitle {
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+.editContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 5px;
+}
+.form-container {
+  margin: 20px 0;
+  flex: 2;
+}
+.form-element-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  input {
+    border: none;
+    margin-top: 10px;
+    border-bottom: 1px solid $grey;
+    margin-bottom: 10px;
+  }
+}
+.upload-img {
+  flex: 1;
+  margin-top: 25px;
+  margin-left: 85px;
+  img {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  label {
+    cursor: pointer;
+  }
+}
+.uploadicon {
+  transform: scale(1.2);
+}
+.btn-di {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.btn-primary {
+  display: flex;
+  align-items: flex-end;
+  border: none;
+  padding: 8px 10px;
+  background-color: #94d2bd;
+  border-radius: 5px;
+  color: #005f73;
+  cursor: pointer;
+}
